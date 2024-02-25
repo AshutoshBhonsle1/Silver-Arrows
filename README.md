@@ -18,8 +18,14 @@ Here is the Link For the YT Video Uploaded :  https://youtu.be/QrdQnAZcAD0
 
 ![](landing.jpg)
 
+### Event Additon
+![](event.jpg)
 
-## [Usage]
+### Event Additon
+![](
+
+## [Description]
+This is a website that acts as a portal for the various college clubs to manage their events and get approval for it. It has a single login page for the three different roles- staff, student and clubs. On the student dashboard the students can see upcoming events. On clubs dashboard the  clubs can add new events. On staff dashboard the staff can approve or decline the request for events. All the pages are made using html, CSS JS and Ajax. The backend is made in python using Flask. MySQL is used as the database for this project.
 
 ### Development
 Want to contribute? Great!
