@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Approval</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Event Description</th>
+          <th>Teacher Coordinator</th>
+          <th>HOD</th>
+          <th>Principal</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+        <tr>
+          <td>{{ row[0] }}</td>
+          <td>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="event1-coordinator" id="event1-coordinator-yes" value="yes">
+              <label class="form-check-label" for="event1-coordinator-yes">Yes</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="event1-coordinator" id="event1-coordinator-no" value="no">
+              <label class="form-check-label" for="event1-coordinator-no">No</label>
+            </div>
+          </td>
+          <td>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="event1-hod" id="event1-hod-yes" value="yes">
+              <label class="form-check-label" for="event1-hod-yes">Yes</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="event1-hod" id="event1-hod-no" value="no">
+              <label class="form-check-label" for="event1-hod-no">No</label>
+            </div>
+          </td>
+          <td>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="event1-principal" id="event1-principal-yes" value="yes">
+              <label class="form-check-label" for="event1-principal-yes">Yes</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="event1-principal" id="event1-principal-no" value="no">
+              <label class="form-check-label" for="event1-principal-no">No</label>
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="static/appr.js"></script>
+
+ 
+</body>
+</html>
