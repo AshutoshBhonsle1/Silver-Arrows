@@ -35,8 +35,8 @@ This is a website that acts as a portal for the various college clubs to manage 
 - [Python](https://www.python.org/)-Backend
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
 - [flask](https://flask.palletsprojects.com/)-To connect frontend and backend
-- [HTML][CSS][JAVASCRIPT]
-- [AJAX]
+- HTML,CSS,JAVASCRIPT
+- AJAX
   
 
 ## Team
