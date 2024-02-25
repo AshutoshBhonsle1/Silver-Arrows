@@ -1,7 +1,7 @@
 # SilverArrows
 <table>
 <tr>
-<td>The Aim of this project is to give smooth,synchronized way to orgranise various Events conducted by respective Clubs and to take approval from the Teacher coordinators,HODs and the principal.The students can also view the details of the events approved by the following admins.
+<td>The Aim of this project is to give a smooth,synchronized way to orgranise various Events conducted by respective Clubs and to take approval from the Teacher coordinators,HODs and the principal.The students can also view the details of the events approved by the following admins.
 
 </td>
 </tr>
