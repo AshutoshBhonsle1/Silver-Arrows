@@ -79,7 +79,7 @@ form .txt_field{
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
   top: -5px;
-  color: #06acaa;
+  color:#06acaa;
 }
 .txt_field input:focus ~ span::before,
 .txt_field input:valid ~ span::before{
@@ -129,27 +129,38 @@ input[type="submit"]:hover{
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <title>Sign up</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
   </head>
   <body>
     <div class="center">
-      <h1>Login</h1>
+      <h1>Sign up</h1>
       <form method="post">
         <div class="txt_field">
-          <input type="text" name="email" required>
+            <input type="email" name="email" required>
+            <span></span>
+            <label>Email</label>
+          </div>
+        <div class="txt_field">
+          <input type="name" name="name" required>
           <span></span>
-          <label>Email</label>
+          <label>Username</label>
         </div>
         <div class="txt_field">
           <input type="password" name="password" required>
           <span></span>
           <label>Password</label>
         </div>
+        <div class="txt_field">
+            <input type="renter-password" required>
+            <span></span>
+            <label>Enter Password Again
+            </label>
+          </div>
         <div class="pass">Forgot Password?</div>
-        <a href="/dashboard"><input type="submit" value="Login"></a>
+        <input type="submit" value="Sign up">
         <div class="signup_link">
-          Not a member? <a href="/signup">Signup</a>
+           A member? <a href="login.html">login</a>
         </div>
       </form>
     </div>
